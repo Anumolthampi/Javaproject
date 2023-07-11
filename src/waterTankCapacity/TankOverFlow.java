@@ -15,7 +15,7 @@ public class TankOverFlow {
 //		System.out.println("Enter the bucket capacity in liters");
 //		int bucketCapacity = scanner.nextInt();
 //		
-		bucket.currentWaterLevel=0;
+		bucket.currentWaterLevel=20;
 		bucket.tankCapacity=100;
 		bucket.bucketCapacity=10;
 		bucket.waterFilling();
