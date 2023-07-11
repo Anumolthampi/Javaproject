@@ -5,9 +5,7 @@ public class ChoclateCountCheck {
 	int choclates;
 	int finalChoclateNumber;
 
-	Void countCheck()
-
-	{
+	void countCheck() {
 
 		choclates = initialchoclateNumber;
 
@@ -16,22 +14,19 @@ public class ChoclateCountCheck {
 		{
 			choclates += 5;
 
-			if
-
-			(choclates > finalChoclateNumber) {
+			if (choclates > finalChoclateNumber) {
 				choclates = finalChoclateNumber;
+
 			}
-			System.out.println("The number of Choclates=" + choclates);
+			
+			System.out.println("The number of choclates =" + choclates);
 		}
+		if (choclates == finalChoclateNumber)
 
-		if (finalChoclateNumber == choclates) {
-			System.out.println("Total number of choclates= " + choclates);
-		} else {
-
-			System.out.println("It if full");
-
+		{
+			System.out.println("Total number of Choclates= " + choclates);
+			System.out.println("It is full");
 		}
-		return null;
-
 	}
+	
 }
