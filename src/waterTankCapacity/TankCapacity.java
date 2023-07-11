@@ -6,28 +6,20 @@ public class TankCapacity {
 	int bucketCapacity;
 
 // fill water using bucket
-void waterFilling()
-{
-	while(currentWaterLevel<=tankCapacity)
-	{
-		if
-	
-		(currentWaterLevel + bucketCapacity <= tankCapacity)
-			{
-			currentWaterLevel += bucketCapacity;
-			
-		System.out.println("Number of times the bucket emptied =" +  (currentWaterLevel/bucketCapacity));	
-	}
-		
-		else 
-		{
-			System.out.println("The tank will overflow");
-			break;
+	void waterFilling() {
+		while (currentWaterLevel <= tankCapacity) {
+			if
+
+			(currentWaterLevel + bucketCapacity <= tankCapacity) {
+				currentWaterLevel += bucketCapacity;
+				System.out.println("current Waterlevel=" + currentWaterLevel);
+			}
+
+			else {
+				System.out.println("The tank capacity reaches to maximum, The tank will overflow now ");
+				break;
+			}
+
 		}
-
 	}
 }
-}
-
-		
-
